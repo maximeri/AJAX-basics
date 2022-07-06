@@ -1,0 +1,10 @@
+// XML, extensible markup language
+// structured data format is designed to deal with large data. It should be ordered consistently, with identifiers(what it is), and is easy for JS to analyze and use
+// Two common data exchange formats: XML vs JSON
+// XML allows you to create your own tag than HTML
+<contacts>
+  <contact><contact>
+  </contacts>
+// The benefit of structured data like XML makes parsing (process of breaking a file up into easily accessed parts)easy. 
+// XML is commonly used to exchanging data between computers. Most server-side language handles XML easily. 
+// But it doesn't work so well with JS, therefore JSON is preferred for AJAX responses format
