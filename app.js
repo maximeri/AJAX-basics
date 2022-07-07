@@ -3,7 +3,7 @@
 var request = new XMLHttpRequest()
 
 // STEP2 create a callback function: process the return data and update the HTML on the page
-request.change = function () {
+request.onreadystatechange = function () {
   if (request.readyState === 4) {
     document.getElementById("footer").innerHTML = request.responseText;
   }
